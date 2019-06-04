@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">golden_booking</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="PASSWORD">PASSWORD</string>
+    <string name="Forget">Forget Password</string>
+    <string name="email">Email.com</string>
+    <string name="Register">Register Here</string>
+    <string name="remember">Remember Me</string>
+    <string name="login">LOGIN</string>
+    <string name="Registration">REGISTRATION</string>
+    <string name="ClickToTake">Click To Take Picture</string>
+    <string name="Name">Name</string>
+    <string name="Email">Email</string>
+    <string name="Phone">Phone Number</string>
+    <string name="Register2">REGISTER</string>
+    <string name="TAndC">I ACCEPT TERM AND CONDITIONS</string>
+    <string name="already">Already have account? Login Here</string>
+    <string name="Search">SEARCH</string>
+    <string name="Persons">Persons</string>
+    <string name="To">To</string>
+    <string name="Location">Location : </string>
+    <string name="TakePicture">Take Picture?</string>
+    <string name="confirmation">Make sure to use your own picture</string>
+    <string name="Description">Registration in progress</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="Reset">Reset</string>
+    <string name="Rmb">Already Remember Password? Login Here </string>
+    <string name="newPassword">New Password</string>
+    <string name="close">close</string>
+    <string name="Parent">Parent</string>
+    <string name="Child">Child</string>
+    <string name="Rooms">Rooms</string>
+    <string name="Check_in_Date">Check-in-Date</string>
+    <string name="Check_out_Date">Check-out-Date</string>
+    <string name="Order">Order Now </string>
+    <string name="yesbutton">Yes</string>
+    <string name="nobutton">No</string>
+    <string name="registerdialognew">Register new account</string>
+    <string name="registrationprocess">Registration in progress</string>
+    <string name="registerfor">Register for</string>
+    <string name="sethomelocation">Home Location</string>
+
+    <string-array name="location">
+        <item>null</item>
+        <item>George Town</item>
+        <item>Kualu Lumpur</item>
+        <item>Ipoh</item>
+        <item>Kuching</item>
+        <item>Johor Bahru</item>
+        <item>Kota Kinabulu</item>
+        <item>Shah Alam</item>
+        <item>Melaka</item>
+        <item>Alor Setar</item>
+        <item>Miri</item>
+        <item>Petaling Jaya</item>
+        <item>Kuala Terengganu</item>
+        <item>Iskandar Puteri</item>
+        <item>Serenmban</item>
+        <item>Changlun</item>
+        <item>Sungai Petani</item>
+        <item>Kodiang</item>
+        <item>Lunas</item>
+        <item>Bukit Mertajam</item>
+        <item>Tasek Gelugor</item>
+        <item>Langkawi</item>
+    </string-array>
+
+    <string-array name="Number">
+        <item>null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string name="title_activity_payment">PaymentActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+</resources>

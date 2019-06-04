@@ -1,0 +1,385 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:2:1-54:12
+MERGED from [com.karumi:dexter:5.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\4435353c37e263083152d7e9fb424cb2\AndroidManifest.xml:17:1-32:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\687cb5630c68969735b9b5fc372284bf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\ab8f2efd1414bb1d13ecf6ca7d20b568\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\2b215983b4665d1752ed47e82318efb1\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\fb5a0c438531a83883606e9ef56e063a\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3e72d8af94a4e868726c44a39bdd0461\AndroidManifest.xml:21:1-37:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\a4635ff707fe9c3322e6876451865b13\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\c080c8e9724840b062180ec516de8890\AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\254820dcb2374fecc38e517dc86fcead\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\652567d6059765c166a112f1ccb11d59\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\99732754e1ccd017e606ba0ed2b688be\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\06e61ef4c73a3fcab51227f0111c6b3c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\2410147ab52189bc0b2bc3cb9b3280a3\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\75d1f4667c8eadb3710d24521e9bee91\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\327930829be502d32798c427aa1fc626\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-places:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\9d5752fe1b6f8066c841dc6210866589\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\a9635061f0707bf77bdd7501c25be31c\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\4a48f1403562ae109bcc9866470fe02d\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f1eb8ddd34c962f7552c7fce51e22907\AndroidManifest.xml:21:1-53:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\fd2a36b67f7c046e484230c669eeeeb4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\73adb26d894c0a53aaf1e754e66b4e25\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\0a5b240840201be3d9cb28d564a65932\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\2539f9adbcf72998ad781a8da20ac241\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\002940169a3f2899638b6dc37fa8e80e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\1d709231623ccc903caa238e691b5c9b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\07c5f3a7532495a1217d37275235d996\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\6ef1e70b99684f24e2c1c0253af74754\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\0e35d497730ea77531616ec6ef1b35d3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\fb6f7f14959107a0c31c7f2689281c2d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\42cb73f8ab988171e3f7186f2e3983d3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f1c7cc0e4237360f335decc8c3c1331a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\989d41e7e3d4467860a432f80e356ae8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\e070aaeae8c573f34358477bbd6d8e5a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3442b1dd0227d17ea6789565d33cb781\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\db851627d1874b5f75accd23325e6583\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\acda7895646cbf5a03322d6e96d6e148\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\87f80d4fdd85c5840dac22899bcf312b\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\9231e1423ecf89196e66c95fc39a74ac\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\6564da4751def3735229dd0d69515d1e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\852e342b2d6842bb5c6c5e80a44c464c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\57e23640f35fbb41497b088720081685\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\77d7d1bda34ace5922c1889a52adf103\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\b136bfe0029adea7eb9be74e142a2d7b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\e51bc9b961914d9bf6af18c84573c7a5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f8546b7759061f547d9f01cdc3294062\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3f15b05f49db5f6e3dea955c7e70aa36\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\fc9c517b64ae1c24f31d2286c6722225\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\d6d264c4bfee127a4fd9db1531cdb474\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:2:1-54:12
+	package
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:2:1-54:12
+		INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:2:1-54:12
+		INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\652567d6059765c166a112f1ccb11d59\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\652567d6059765c166a112f1ccb11d59\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:6:22-64
+permission#com.example.barcodelibrary.permission.MAPS_RECEIVE
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:8:5-10:46
+	android:protectionLevel
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:10:9-44
+	android:name
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:9:9-74
+uses-permission#com.example.barcodelibrary.permission.MAPS_RECEIVE
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:11:5-89
+	android:name
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:11:22-87
+uses-feature#android.hardware.camera
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:12:5-14:35
+	android:required
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:14:9-32
+	android:name
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:13:9-47
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:16:5-17:67
+	android:name
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:17:9-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:18:22-77
+application
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:20:5-52:19
+MERGED from [com.karumi:dexter:5.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\4435353c37e263083152d7e9fb424cb2\AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:5.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\4435353c37e263083152d7e9fb424cb2\AndroidManifest.xml:26:5-30:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\ab8f2efd1414bb1d13ecf6ca7d20b568\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\ab8f2efd1414bb1d13ecf6ca7d20b568\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\2b215983b4665d1752ed47e82318efb1\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\2b215983b4665d1752ed47e82318efb1\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\fb5a0c438531a83883606e9ef56e063a\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\fb5a0c438531a83883606e9ef56e063a\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3e72d8af94a4e868726c44a39bdd0461\AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3e72d8af94a4e868726c44a39bdd0461\AndroidManifest.xml:28:5-35:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\c080c8e9724840b062180ec516de8890\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\c080c8e9724840b062180ec516de8890\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\254820dcb2374fecc38e517dc86fcead\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\254820dcb2374fecc38e517dc86fcead\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\652567d6059765c166a112f1ccb11d59\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\652567d6059765c166a112f1ccb11d59\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\99732754e1ccd017e606ba0ed2b688be\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\99732754e1ccd017e606ba0ed2b688be\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\06e61ef4c73a3fcab51227f0111c6b3c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\06e61ef4c73a3fcab51227f0111c6b3c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\2410147ab52189bc0b2bc3cb9b3280a3\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\2410147ab52189bc0b2bc3cb9b3280a3\AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.android:facebook-places:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\9d5752fe1b6f8066c841dc6210866589\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\9d5752fe1b6f8066c841dc6210866589\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\a9635061f0707bf77bdd7501c25be31c\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\a9635061f0707bf77bdd7501c25be31c\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\4a48f1403562ae109bcc9866470fe02d\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\4a48f1403562ae109bcc9866470fe02d\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f1eb8ddd34c962f7552c7fce51e22907\AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f1eb8ddd34c962f7552c7fce51e22907\AndroidManifest.xml:28:5-51:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\acda7895646cbf5a03322d6e96d6e148\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\acda7895646cbf5a03322d6e96d6e148\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\87f80d4fdd85c5840dac22899bcf312b\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\87f80d4fdd85c5840dac22899bcf312b\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\acda7895646cbf5a03322d6e96d6e148\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:25:9-35
+	android:label
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:23:9-41
+	android:roundIcon
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:24:9-54
+	android:icon
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:22:9-43
+	android:allowBackup
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:26:9-40
+activity#com.example.goldenbooking.about
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:27:9-52
+	android:name
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:27:19-40
+activity#com.example.goldenbooking.ProfileActivity
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:30:9-32:62
+	android:label
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:32:13-59
+	android:name
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:31:13-44
+activity#com.example.goldenbooking.ForgetPassword
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:33:9-35:59
+	android:theme
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:35:13-56
+	android:name
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:34:13-43
+activity#com.example.goldenbooking.MainActivity
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:36:9-50
+	android:name
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:36:19-47
+activity#com.example.goldenbooking.RegisterActivity
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:37:9-39:59
+	android:theme
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:39:13-56
+	android:name
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:38:13-45
+activity#com.example.goldenbooking.login_Activity
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:40:9-42:59
+	android:theme
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:42:13-56
+	android:name
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:41:13-43
+activity#com.example.goldenbooking.splash_screen
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:43:9-51:20
+	android:theme
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:45:13-56
+	android:name
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:44:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:46:13-50:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:47:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:49:17-77
+	android:name
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml:49:27-74
+uses-sdk
+INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml
+MERGED from [com.karumi:dexter:5.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\4435353c37e263083152d7e9fb424cb2\AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:5.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\4435353c37e263083152d7e9fb424cb2\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\687cb5630c68969735b9b5fc372284bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\687cb5630c68969735b9b5fc372284bf\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\ab8f2efd1414bb1d13ecf6ca7d20b568\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\ab8f2efd1414bb1d13ecf6ca7d20b568\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\2b215983b4665d1752ed47e82318efb1\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\2b215983b4665d1752ed47e82318efb1\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\fb5a0c438531a83883606e9ef56e063a\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\fb5a0c438531a83883606e9ef56e063a\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3e72d8af94a4e868726c44a39bdd0461\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3e72d8af94a4e868726c44a39bdd0461\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\a4635ff707fe9c3322e6876451865b13\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\a4635ff707fe9c3322e6876451865b13\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\c080c8e9724840b062180ec516de8890\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\c080c8e9724840b062180ec516de8890\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\254820dcb2374fecc38e517dc86fcead\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\254820dcb2374fecc38e517dc86fcead\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\652567d6059765c166a112f1ccb11d59\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\652567d6059765c166a112f1ccb11d59\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\99732754e1ccd017e606ba0ed2b688be\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\99732754e1ccd017e606ba0ed2b688be\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\06e61ef4c73a3fcab51227f0111c6b3c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\06e61ef4c73a3fcab51227f0111c6b3c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\2410147ab52189bc0b2bc3cb9b3280a3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\2410147ab52189bc0b2bc3cb9b3280a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\75d1f4667c8eadb3710d24521e9bee91\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\75d1f4667c8eadb3710d24521e9bee91\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\327930829be502d32798c427aa1fc626\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\327930829be502d32798c427aa1fc626\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\9d5752fe1b6f8066c841dc6210866589\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\9d5752fe1b6f8066c841dc6210866589\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\a9635061f0707bf77bdd7501c25be31c\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\a9635061f0707bf77bdd7501c25be31c\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\4a48f1403562ae109bcc9866470fe02d\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\4a48f1403562ae109bcc9866470fe02d\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f1eb8ddd34c962f7552c7fce51e22907\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f1eb8ddd34c962f7552c7fce51e22907\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\fd2a36b67f7c046e484230c669eeeeb4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\fd2a36b67f7c046e484230c669eeeeb4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\73adb26d894c0a53aaf1e754e66b4e25\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\73adb26d894c0a53aaf1e754e66b4e25\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\0a5b240840201be3d9cb28d564a65932\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\0a5b240840201be3d9cb28d564a65932\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\2539f9adbcf72998ad781a8da20ac241\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\2539f9adbcf72998ad781a8da20ac241\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\002940169a3f2899638b6dc37fa8e80e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\002940169a3f2899638b6dc37fa8e80e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\1d709231623ccc903caa238e691b5c9b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\1d709231623ccc903caa238e691b5c9b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\07c5f3a7532495a1217d37275235d996\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\07c5f3a7532495a1217d37275235d996\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\6ef1e70b99684f24e2c1c0253af74754\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\6ef1e70b99684f24e2c1c0253af74754\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\0e35d497730ea77531616ec6ef1b35d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\0e35d497730ea77531616ec6ef1b35d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\fb6f7f14959107a0c31c7f2689281c2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\fb6f7f14959107a0c31c7f2689281c2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\42cb73f8ab988171e3f7186f2e3983d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\42cb73f8ab988171e3f7186f2e3983d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f1c7cc0e4237360f335decc8c3c1331a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f1c7cc0e4237360f335decc8c3c1331a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\989d41e7e3d4467860a432f80e356ae8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\989d41e7e3d4467860a432f80e356ae8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\e070aaeae8c573f34358477bbd6d8e5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\e070aaeae8c573f34358477bbd6d8e5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3442b1dd0227d17ea6789565d33cb781\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3442b1dd0227d17ea6789565d33cb781\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\db851627d1874b5f75accd23325e6583\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\db851627d1874b5f75accd23325e6583\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\acda7895646cbf5a03322d6e96d6e148\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\acda7895646cbf5a03322d6e96d6e148\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\87f80d4fdd85c5840dac22899bcf312b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\87f80d4fdd85c5840dac22899bcf312b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\9231e1423ecf89196e66c95fc39a74ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\9231e1423ecf89196e66c95fc39a74ac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\6564da4751def3735229dd0d69515d1e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\6564da4751def3735229dd0d69515d1e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\852e342b2d6842bb5c6c5e80a44c464c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\852e342b2d6842bb5c6c5e80a44c464c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\57e23640f35fbb41497b088720081685\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\57e23640f35fbb41497b088720081685\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\77d7d1bda34ace5922c1889a52adf103\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\77d7d1bda34ace5922c1889a52adf103\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\b136bfe0029adea7eb9be74e142a2d7b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\b136bfe0029adea7eb9be74e142a2d7b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\e51bc9b961914d9bf6af18c84573c7a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\e51bc9b961914d9bf6af18c84573c7a5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f8546b7759061f547d9f01cdc3294062\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f8546b7759061f547d9f01cdc3294062\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3f15b05f49db5f6e3dea955c7e70aa36\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3f15b05f49db5f6e3dea955c7e70aa36\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\fc9c517b64ae1c24f31d2286c6722225\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\fc9c517b64ae1c24f31d2286c6722225\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\d6d264c4bfee127a4fd9db1531cdb474\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\d6d264c4bfee127a4fd9db1531cdb474\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\src\main\AndroidManifest.xml
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:5.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\4435353c37e263083152d7e9fb424cb2\AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:5.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\4435353c37e263083152d7e9fb424cb2\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:5.0.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\4435353c37e263083152d7e9fb424cb2\AndroidManifest.xml:28:13-60
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3e72d8af94a4e868726c44a39bdd0461\AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3e72d8af94a4e868726c44a39bdd0461\AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3e72d8af94a4e868726c44a39bdd0461\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3e72d8af94a4e868726c44a39bdd0461\AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3e72d8af94a4e868726c44a39bdd0461\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3e72d8af94a4e868726c44a39bdd0461\AndroidManifest.xml:33:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3e72d8af94a4e868726c44a39bdd0461\AndroidManifest.xml:34:9-67
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\3e72d8af94a4e868726c44a39bdd0461\AndroidManifest.xml:34:19-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\652567d6059765c166a112f1ccb11d59\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\652567d6059765c166a112f1ccb11d59\AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\652567d6059765c166a112f1ccb11d59\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\652567d6059765c166a112f1ccb11d59\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\652567d6059765c166a112f1ccb11d59\AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\652567d6059765c166a112f1ccb11d59\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\652567d6059765c166a112f1ccb11d59\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\652567d6059765c166a112f1ccb11d59\AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\99732754e1ccd017e606ba0ed2b688be\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\99732754e1ccd017e606ba0ed2b688be\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\99732754e1ccd017e606ba0ed2b688be\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\99732754e1ccd017e606ba0ed2b688be\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\2410147ab52189bc0b2bc3cb9b3280a3\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\2410147ab52189bc0b2bc3cb9b3280a3\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\2410147ab52189bc0b2bc3cb9b3280a3\AndroidManifest.xml:24:13-58
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f1eb8ddd34c962f7552c7fce51e22907\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f1eb8ddd34c962f7552c7fce51e22907\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f1eb8ddd34c962f7552c7fce51e22907\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f1eb8ddd34c962f7552c7fce51e22907\AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f1eb8ddd34c962f7552c7fce51e22907\AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f1eb8ddd34c962f7552c7fce51e22907\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f1eb8ddd34c962f7552c7fce51e22907\AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f1eb8ddd34c962f7552c7fce51e22907\AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f1eb8ddd34c962f7552c7fce51e22907\AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\yeong\.gradle\caches\transforms-2\files-2.1\f1eb8ddd34c962f7552c7fce51e22907\AndroidManifest.xml:48:25-92
