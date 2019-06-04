@@ -1,0 +1,42 @@
+[08-Apr-2019 18:24:49 Asia/Kuala_Lumpur] PHP Warning:  fopen(../profileimages/12345.jpg): failed to open stream: No such file or directory in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 8
+[08-Apr-2019 18:24:49 Asia/Kuala_Lumpur] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 9
+[08-Apr-2019 18:24:49 Asia/Kuala_Lumpur] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 10
+[08-Apr-2019 18:26:26 Asia/Kuala_Lumpur] PHP Warning:  fopen(../profileimages/12345.jpg): failed to open stream: No such file or directory in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 8
+[08-Apr-2019 18:26:26 Asia/Kuala_Lumpur] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 9
+[08-Apr-2019 18:26:26 Asia/Kuala_Lumpur] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 10
+[08-Apr-2019 18:30:32 Asia/Kuala_Lumpur] PHP Warning:  fopen(../profileimages/.jpg): failed to open stream: No such file or directory in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 8
+[08-Apr-2019 18:30:32 Asia/Kuala_Lumpur] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 9
+[08-Apr-2019 18:30:32 Asia/Kuala_Lumpur] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 10
+[08-Apr-2019 18:30:39 Asia/Kuala_Lumpur] PHP Warning:  fopen(../profileimages/.jpg): failed to open stream: No such file or directory in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 8
+[08-Apr-2019 18:30:39 Asia/Kuala_Lumpur] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 9
+[08-Apr-2019 18:30:39 Asia/Kuala_Lumpur] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 10
+[08-Apr-2019 18:30:48 Asia/Kuala_Lumpur] PHP Warning:  fopen(../profileimages/.jpg): failed to open stream: No such file or directory in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 8
+[08-Apr-2019 18:30:48 Asia/Kuala_Lumpur] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 9
+[08-Apr-2019 18:30:48 Asia/Kuala_Lumpur] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 10
+[08-Apr-2019 18:30:55 Asia/Kuala_Lumpur] PHP Warning:  fopen(../profileimages/.jpg): failed to open stream: No such file or directory in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 8
+[08-Apr-2019 18:30:55 Asia/Kuala_Lumpur] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 9
+[08-Apr-2019 18:30:55 Asia/Kuala_Lumpur] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 10
+[08-Apr-2019 18:31:05 Asia/Kuala_Lumpur] PHP Warning:  fopen(../profileimages/.jpg): failed to open stream: No such file or directory in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 8
+[08-Apr-2019 18:31:05 Asia/Kuala_Lumpur] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 9
+[08-Apr-2019 18:31:05 Asia/Kuala_Lumpur] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 10
+[08-Apr-2019 18:33:47 Asia/Kuala_Lumpur] PHP Warning:  fopen(../profileimages/.jpg): failed to open stream: No such file or directory in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 8
+[08-Apr-2019 18:33:47 Asia/Kuala_Lumpur] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 9
+[08-Apr-2019 18:33:47 Asia/Kuala_Lumpur] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 10
+[08-Apr-2019 18:34:04 Asia/Kuala_Lumpur] PHP Warning:  fopen(../profileimages/.jpg): failed to open stream: No such file or directory in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 8
+[08-Apr-2019 18:34:04 Asia/Kuala_Lumpur] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 9
+[08-Apr-2019 18:34:04 Asia/Kuala_Lumpur] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 10
+[08-Apr-2019 18:38:28 Asia/Kuala_Lumpur] PHP Warning:  fopen(profileimages/.jpg): failed to open stream: No such file or directory in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 8
+[08-Apr-2019 18:38:28 Asia/Kuala_Lumpur] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 9
+[08-Apr-2019 18:38:28 Asia/Kuala_Lumpur] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/GOLDENBOOKING/UploadPicture.php on line 10
+[19-May-2019 14:26:34 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected end of file in /home/socstude/public_html/GOLDENBOOKING/verify_email.php on line 48
+[19-May-2019 14:27:00 Asia/Kuala_Lumpur] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/socstude/public_html/GOLDENBOOKING/verify_email.php on line 9
+[19-May-2019 14:27:00 Asia/Kuala_Lumpur] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/socstude/public_html/GOLDENBOOKING/verify_email.php on line 9
+[19-May-2019 14:27:00 Asia/Kuala_Lumpur] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/socstude/public_html/GOLDENBOOKING/verify_email.php on line 9
+[19-May-2019 14:27:37 Asia/Kuala_Lumpur] PHP Fatal error:  Class 'PHPMailer\PHPMailer\PHPMailer' not found in /home/socstude/public_html/GOLDENBOOKING/verify_email.php on line 12
+[19-May-2019 14:27:54 Asia/Kuala_Lumpur] PHP Warning:  Creating default object from empty value in /home/socstude/public_html/GOLDENBOOKING/verify_email.php on line 15
+[19-May-2019 14:27:54 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined method stdClass::isSMTP() in /home/socstude/public_html/GOLDENBOOKING/verify_email.php on line 16
+[01-Jun-2019 21:16:42 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/socstude/public_html/GOLDENBOOKING/updateProfile.php on line 16
+[04-Jun-2019 03:26:23 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/socstude/public_html/GOLDENBOOKING/loadHomeStay.php on line 40
+[04-Jun-2019 14:50:16 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/socstude/public_html/GOLDENBOOKING/loadHomeStayByDate.php on line 11
+[04-Jun-2019 14:52:31 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected ''$checkin'' (T_CONSTANT_ENCAPSED_STRING) in /home/socstude/public_html/GOLDENBOOKING/loadHomeStayByDate.php on line 8
+[04-Jun-2019 17:18:43 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected 'SELECT' (T_STRING) in /home/socstude/public_html/GOLDENBOOKING/loadHomeStayByDate.php on line 9
