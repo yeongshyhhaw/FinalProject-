@@ -1,53 +1,46 @@
 package com.example.goldenbooking;
 
-
 import android.Manifest;
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.ContextWrapper;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.media.MediaScannerConnection;
 import android.media.ThumbnailUtils;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.provider.MediaStore;
-import android.support.v4.app.ActivityCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.TextUtils;
+import android.os.Environment;
+import android.provider.MediaStore;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Base64;
 import android.util.Log;
-import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.MapView;
-import com.google.android.gms.maps.MapsInitializer;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
-
+import com.karumi.dexter.Dexter;
+import com.karumi.dexter.MultiplePermissionsReport;
+import com.karumi.dexter.PermissionToken;
+import com.karumi.dexter.listener.DexterError;
+import com.karumi.dexter.listener.PermissionRequest;
+import com.karumi.dexter.listener.PermissionRequestErrorListener;
+import com.karumi.dexter.listener.multi.MultiplePermissionsListener;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.Calendar;
 import java.util.HashMap;
+import java.util.List;
 
 public class RegisterActivity extends AppCompatActivity {
     EditText Email,Pass,Phone,Name;
@@ -55,75 +48,30 @@ public class RegisterActivity extends AppCompatActivity {
     TextView Login;
     ImageView ProfilePicture;
     User user;
-    String hlatitude,hlongitude;
-    TextView TandC,Location;
-    ImageButton btnmapwindown;
-    String EDEmail,EDPass,EDName,EDPhone;
+    TextView TandC;
     CheckBox TAndC;
-    Dialog myDialogMap;
     private static final String IMAGE_DIRECTORY = "/demonuts";
     private int GALLERY = 1, CAMERA = 2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-        Email = findViewById(R.id.email);
-        Pass = findViewById(R.id.pass);
-        Phone =findViewById(R.id.phoneNum);
-        Name = findViewById(R.id.name);
-        Reg = findViewById(R.id.buttonReg);
-        Login = findViewById(R.id.textViewLogin);
-        TAndC = findViewById(R.id.checkBox);
-        TandC = findViewById(R.id.TANDC);
-
-
-        ProfilePicture = findViewById(R.id.imageView);
-
+        initView();
 
 
         Reg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EDEmail = Email.getText().toString();
-                EDName = Name.getText().toString();
-                EDPass = Pass.getText().toString();
-                EDPhone = Phone.getText().toString();
                 if(TAndC.isChecked()) {
-                    if (TextUtils.isEmpty(EDEmail)) {
-                        Email.setError("Please insert email !");
-                        return;
-                    } else if (!Patterns.EMAIL_ADDRESS.matcher(EDEmail).matches()) {
-                        Email.setError("Please enter a valid email address !");
-                        return;
-                    }
-                    if (TextUtils.isEmpty(EDName))
-                    {
-                        Name.setError("Please insert name");
-                        return;
-
-                    }
-                    if (TextUtils.isEmpty(EDPass)) {
-                        Pass.setError("Please insert password");
-                        return;
-                    }
-                    if (TextUtils.isEmpty(EDPhone))
-                    {
-                        Phone.setError("Please insert phone number");
-                        return;
-
-                    }
                     registerUserInput();
-
                 }
                 else
                 {
-
                     Toast.makeText(RegisterActivity.this,"Please Accept Term and condition", Toast.LENGTH_SHORT).show();
                 }
             }
 
         });
-
 
         TandC.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -292,7 +240,8 @@ public class RegisterActivity extends AppCompatActivity {
         phone = Phone.getText().toString();
         name = Name.getText().toString();
         user = new User(name,phone,email,pass);
-        registerUserDialog();
+
+            registerUserDialog();
 
 
     }
@@ -379,7 +328,17 @@ public class RegisterActivity extends AppCompatActivity {
 
 
 
-
+    private void initView() {
+        Email = findViewById(R.id.email);
+        Pass = findViewById(R.id.pass);
+        Phone =findViewById(R.id.phoneNum);
+        Name = findViewById(R.id.name);
+        Reg = findViewById(R.id.buttonReg);
+        Login = findViewById(R.id.textViewLogin);
+        TAndC = findViewById(R.id.checkBox);
+        TandC = findViewById(R.id.TANDC);
+        ProfilePicture = findViewById(R.id.imageView);
+    }
 
     public class Encode_image extends AsyncTask<String,String,Void> {
         private String encoded_string, image_name;
@@ -435,8 +394,6 @@ public class RegisterActivity extends AppCompatActivity {
             uploadall.execute();
         }
     }
-
-
 
 
 }

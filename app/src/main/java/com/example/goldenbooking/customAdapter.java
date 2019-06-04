@@ -29,8 +29,8 @@ public class customAdapter extends SimpleAdapter {
             TextView tvHSname = vi.findViewById(R.id.textView);
             TextView tvphone = vi.findViewById(R.id.textView2);
             TextView tvadd = vi.findViewById(R.id.textView3);
-            TextView tvloc = vi.findViewById(R.id.TextView15);
-            CircleImageView imgrest =vi.findViewById(R.id.imageView);
+            TextView tvloc = vi.findViewById(R.id.textView4);
+            CircleImageView imgrest =vi.findViewById(R.id.imageView2);
             String dname = (String) data.get("HSNAME");//hilang
             String dphone =(String) data.get("HSPHONE");
             String dadd =(String) data.get("HSADDRESS");
@@ -40,7 +40,7 @@ public class customAdapter extends SimpleAdapter {
             tvphone.setText(dphone);
             tvadd.setText(dadd);
             tvloc.setText(dloc);
-            String image_url = "http://www.socstudents.net/GOLDENBOOKING/HomeStayPicture/"+drid+".jpg";
+            String image_url = "http://www.socstudents.net/GOLDENBOOKING/images"+drid+".jpg";
             Picasso.with(mContext).load(image_url)
                     .fit().into(imgrest);
 

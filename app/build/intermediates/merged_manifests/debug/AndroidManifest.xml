@@ -11,17 +11,13 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <permission
-        android:name="com.example.barcodelibrary.permission.MAPS_RECEIVE"
-        android:protectionLevel="signature" />
-
-    <uses-permission android:name="com.example.barcodelibrary.permission.MAPS_RECEIVE" />
-
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <!-- Include required permissions for Google Maps API to run. -->
@@ -41,10 +37,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.goldenbooking.about" />
         <activity
             android:name="com.example.goldenbooking.ProfileActivity"
-            android:label="@string/title_activity_profile" />
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.goldenbooking.PaymentActivity"
+            android:label="@string/title_activity_payment"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.example.goldenbooking.ForgetPassword"
             android:theme="@style/AppTheme.NoActionBar" />

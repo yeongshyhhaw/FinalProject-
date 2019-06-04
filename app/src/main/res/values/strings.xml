@@ -39,7 +39,6 @@
     <string name="registerdialognew">Register new account</string>
     <string name="registrationprocess">Registration in progress</string>
     <string name="registerfor">Register for</string>
-    <string name="sethomelocation">Home Location</string>
 
     <string-array name="location">
         <item>null</item>
@@ -100,6 +99,5 @@
         <item>30</item>
     </string-array>
     <string name="title_activity_payment">PaymentActivity</string>
-    <string name="title_activity_maps">Map</string>
     <string name="title_activity_profile">ProfileActivity</string>
 </resources>

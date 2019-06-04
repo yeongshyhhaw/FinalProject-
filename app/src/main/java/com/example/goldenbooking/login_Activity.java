@@ -8,8 +8,6 @@ import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.TextUtils;
-import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -57,18 +55,6 @@ public class login_Activity extends AppCompatActivity {
             public void onClick(View v) {
                 String email = EdEmail.getText().toString();
                 String pass = EdPassword.getText().toString();
-                if(TextUtils.isEmpty(email)) { // User's email
-                    EdEmail.setError("Please insert email !");
-                    return;
-                } else if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-                    EdEmail.setError("Please enter a valid email address !");
-                    return;
-                }
-                if (TextUtils.isEmpty(pass)) { // User's email
-                    EdPassword.setError("Please insert email !");
-                    return;
-                }
-
                 loginUser(email,pass);
             }
         });
@@ -131,15 +117,12 @@ public class login_Activity extends AppCompatActivity {
                 loading.dismiss();
                 if(s.equalsIgnoreCase("failed")){
                     Toast.makeText(login_Activity.this, "Login Failed", Toast.LENGTH_LONG).show();
-                }else if  (s.length()>7){
+                }else if (s.equalsIgnoreCase("success")){
                     //Toast.makeText(LoginActivity.this, s, Toast.LENGTH_LONG).show();
                     String[] val = s.split(",");
                     Intent intent = new Intent(login_Activity.this,MainActivity.class);
                     Bundle bundle = new Bundle();
                     bundle.putString("userid",email);
-                    bundle.putString("name",val[0]);
-                    bundle.putString("phone",val[1]);
-                    User.setEmail(email);
                     intent.putExtras(bundle);
                     startActivity(intent);
                 }
@@ -180,7 +163,6 @@ public class login_Activity extends AppCompatActivity {
             @Override
             protected void onPostExecute(String s) {
                 super.onPostExecute(s);
-                Toast.makeText(login_Activity.this, s, Toast.LENGTH_SHORT).show();
                 if (s.equalsIgnoreCase("success")){
                     Toast.makeText(login_Activity.this, "Success. Check your email", Toast.LENGTH_LONG).show();
                     dialogforgotpass.dismiss();

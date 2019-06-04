@@ -2,13 +2,13 @@
 <instant-run
     abi="x86"
     api-level="25"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xhdpi"
     format="10"
-    plugin-version="3.4.1"
-    timestamp="1559660695429"
-    token="2882778799850309232"
-    verifier="COLD_SWAP_REQUESTED" >
+    plugin-version="3.3.2"
+    timestamp="1557978253490"
+    token="-2453037376270394558"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
@@ -23,101 +23,83 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\androidStudio\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\androidStudio\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
+
     <build
         build-mode="FULL"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1559625213361"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1557978253490"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="D:\androidStudio\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="D:\androidStudio\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            location="D:\androidStudio\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1559647975699"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1559653516227"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1559658215943"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\yeong\AndroidStudioProjects\GoldenBooking\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1559660695429"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
